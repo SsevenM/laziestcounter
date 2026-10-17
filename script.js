@@ -163,10 +163,10 @@ met.addEventListener("keydown", (e) => {
 })
 
 document.addEventListener("keydown", (e) => {
-    if(e.key === "Shift" & active === false) {
+    if(e.key === "Shift" || e.key === "." & active === false) {
         active = true
     }
-    else if(e.key === "Shift" & active === true) {
+    else if(e.key === "Shift" || e.key === "." & active === true) {
         active = false
     }
 })

@@ -1,0 +1,54 @@
+#output {
+    white-space: pre-line;
+}
+.badboy {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background: url(photos/bsod.png) no-repeat center / 100% 100%;
+    z-index: 1000;
+    visibility: hidden;
+    cursor: none;
+}
+html {
+    background: linear-gradient(135deg, #78ffcd, #376e, #91DBAD, #bbffad);
+    margin: 0;
+    height: 100%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#grades, #hope, #method{
+    border:3px solid #116f1f;
+    border-radius: 13px;
+    padding: 10px 20px;
+    background-color: #089090;
+    
+}
+input::placeholder {
+    color: #aaa;
+}
+input {
+    padding: 5px 2px;
+    border: 3px solid #116f1f;
+    border-radius: 10px;
+    background-color: #006b7d;
+    color: #ffe066;
+    cursor: pointer;
+}
+#click:hover {
+    filter: brightness(0.8);
+    color: #ffe066;
+}
+#clear {
+    background-color:#9e0000;
+    border-color: black;
+    color: darkgreen;
+}
+#clear:hover{
+    filter: brightness(0.8);
+}
